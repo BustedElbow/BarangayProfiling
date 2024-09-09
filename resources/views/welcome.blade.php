@@ -6,9 +6,22 @@
         <title>Home</title>
         @vite('resources/css/app.css')
   </head>
+
    <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+
+    <nav class="bg-black flex justify-between p-8">
+      <h1 class=" text-white uppercase" >NxtBarangay</h1>
+      <img src="{{ asset('../images/1.png') }}" alt="Placeholder Image" class="ml-64 p-4">
+
+      <ul >
+        <div class="flex gap-x-4 mr-64">
+          <li class="px-4 py-3 bg-transparent border rounded-button text-white uppercase"><a href="#">LogIn</a></li>
+          <li class="px-4 py-3 bg-white rounded-button uppercase"><a href="#">Register</a></li>
+        </div>
+      </ul>
+
+    </nav>
+
    </body>
+
 </html>

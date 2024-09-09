@@ -6,7 +6,12 @@ export default {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        'button': '8px',
+      },
+    },
+
   },
   plugins: [],
 }

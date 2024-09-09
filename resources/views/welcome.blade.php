@@ -10,8 +10,8 @@
    <body>
 
     <nav class="bg-black flex justify-between p-8">
+      <img src="{{ asset('images/1.png') }}" alt="Placeholder Image" class="">
       <h1 class=" text-white uppercase" >NxtBarangay</h1>
-      <img src="{{ asset('../images/1.png') }}" alt="Placeholder Image" class="ml-64 p-4">
 
       <ul >
         <div class="flex gap-x-4 mr-64">

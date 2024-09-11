@@ -9,14 +9,15 @@
 
    <body class="overflow-y-auto">
      
-     <nav class="bg-black flex justify-between p-8">
-       <img src="{{ asset('../images/1.png') }}" alt="Placeholder Image" class="ml-64 p-2 w-32 h-32">
-       <ul>
-         <div class="flex gap-x-4 mr-64">
-           <li class="px-4 py-3 bg-transparent border rounded-button text-white uppercase"><a href="#">LogIn</a></li>
-           <li class="px-4 py-3 bg-white rounded-button uppercase"><a href="#">Register</a></li>
+     <nav class="bg-black">
+        <div class=" container mx-auto">
+          <div div class=" grid grid-cols-12 gap-5 py-4">
+            <div class=" col-start-10 col-span-3 flex justify-end gap-6">
+              <a class="px-4 py-3 bg-transparent border rounded-button text-white uppercase" href="">Log in</a>
+              <a class="px-4 py-3 bg-white rounded-button uppercase" href="">Register</a>
+            </div>
           </div>
-        </ul>
+        </div>
       </nav>
     
     <!-- Guide for figma 12 grid system -->
@@ -95,7 +96,7 @@
             <div class="col-span-6 flex flex-col items-start justify-center ml-32">
               <h1 class="text-white text-2xl font-bold">Barangay Clearance</h1>
               <p class="text-white mt-6 justify-text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos commodi ea, sit ab culpa itaque et in possimus laborum fugiat vitae dicta! Corrupti libero officiis animi sit tempore nulla recusandae.</p>
-              <button class="px-4 py-3 bg-transparent border rounded-button text-white uppercase mt-6">Learn More</button>
+              <button class="px-4 py-3 bg-transparent border rounded-button text-white mt-6">Learn More</button>
             </div>
           </div>
         </div>

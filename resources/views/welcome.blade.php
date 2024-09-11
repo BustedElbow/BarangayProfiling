@@ -49,9 +49,9 @@
           <div>
             <button class="px-4 py-3 bg-black border rounded-button text-white w-auto h-auto">Register</button>
           </div>
-        </div>
-        <div class=" col-start-7 col-span-6 bg-slate-500 rounded-2xl bg-cover bg-center h-96 bg-hero-pattern"></div>
-        </div>
+          </div>
+            <div class=" col-start-7 col-span-6 bg-slate-500 rounded-2xl bg-cover bg-center h-96 bg-hero-pattern"></div>
+          </div>
       </div>
     </div>
 

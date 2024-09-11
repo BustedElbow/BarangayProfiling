@@ -10,6 +10,9 @@ export default {
       borderRadius: {
         'button': '8px',
       },
+      backgroundImage: {
+        'hero-pattern': "url('/public/images/2.png')",
+      },
     },
 
   },

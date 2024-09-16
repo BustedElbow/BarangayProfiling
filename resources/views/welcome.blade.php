@@ -10,7 +10,7 @@
    <body class="overflow-y-auto">
      
      <nav class="bg-black flex justify-between p-8">
-       <img src="{{ asset('../images/1.png') }}" alt="Placeholder Image" class="ml-64 p-2 w-32 h-32">
+       <img src="{{asset('../images/1.png') }}" alt="Placeholder Image" class="ml-64 p-2 w-32 h-32">
        <ul>
          <div class="flex gap-x-4 mr-64">
            <li class="px-4 py-3 bg-transparent border rounded-button text-white uppercase"><a href="#">LogIn</a></li>
@@ -63,22 +63,22 @@
           <button><h3>View More</h3></button>
         </div>
         <div class="col-span-3 flex flex-col items-center border p-8">
-          <img src="{{ asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+          <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
           <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
           <p>September 9, 2024</p>
         </div>
         <div class="col-span-3 flex flex-col items-center border p-8">
-          <img src="{{ asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+          <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
           <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
           <p>September 9, 2024</p>
         </div>
         <div class="col-span-3 flex flex-col items-center border p-8">
-          <img src="{{ asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+          <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
           <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
           <p>September 9, 2024</p>
         </div>
         <div class="col-span-3 flex flex-col items-center border p-8">
-          <img src="{{ asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+          <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
           <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
           <p>September 9, 2024</p>
         </div>
@@ -90,7 +90,7 @@
         <div class="container mx-auto mt-24 ">
           <div class="grid grid-cols-12 gap-5">
             <div class="col-span-4 flex flex-col items-center p-8">
-              <img src="{{ asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+              <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
             </div>
             <div class="col-span-6 flex flex-col items-start justify-center ml-32">
               <h1 class="text-white text-2xl font-bold">Barangay Clearance</h1>
@@ -101,9 +101,78 @@
         </div>
       </div>
 
-      <!-- Barangay Officials Section -->
-       <div class="container mx-auto">
-        <h1>Barangay Officials</h1>
-       </div>
+       <!-- Barangay Officials Section -->
+    <!--Captain-->
+    <div class=" ">
+        <div class="flex justify-center h-48 mt-24">
+            <h1 class="uppercase font-bold text-2xl mt-16">Barangay Officials</h1>
+        </div>
+        <div class="flex justify-center">
+            <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
+                <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                <div class="ml-6">
+                    <h2 class="text-xl font-semibold mt-2">John Doe</h2>
+                    <p>Barangay Captain</p>
+                </div>
+            </div>
+        </div>
+        <!--Kagawad-->
+        <div>
+            <div class="flex justify-center">
+                <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
+                    <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                    <div class="ml-6">
+                        <h2 class="text-xl font-semibold mt-2">Mike Doe</h2>
+                        <p>Barangay Kagawad</p>
+                    </div>
+                </div>
+            </div>
+            <!--Staff-->
+            <div class="justify-between grid grid-cols-4 gap-4">
+                <div class="flex justify-center">
+                    <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
+                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <div class="ml-6">
+                            <h2 class="text-xl font-semibold mt-2">Doe John</h2>
+                            <p>Staff </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
+                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <div class="ml-6">
+                            <h2 class="text-xl font-semibold mt-2">Staff Doe</h2>
+                            <p>Staff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
+                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <div class="ml-6">
+                            <h2 class="text-xl font-semibold mt-2">Doe Staff</h2>
+                            <p>Staff</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
+                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <div class="ml-6">
+                            <h2 class="text-xl font-semibold mt-2">Doey Staff</h2>
+                            <p>Staff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div class="bg-black flex justify-center px-16 py-24 mt-16">
+        <p class="text-white">© 2024 Footer Barangay System</p>
+</footer>
   </body>
 </html>

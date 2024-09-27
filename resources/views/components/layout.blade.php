@@ -11,7 +11,7 @@
 
 <nav class="bg-black">
     <div class=" container mx-auto">
-        <div div class=" grid grid-cols-12 gap-5 py-4">
+        <div class=" grid grid-cols-12 gap-5 py-4">
             <div class=" col-start-10 col-span-3 flex justify-end gap-6">
                 <a class="px-4 py-3 bg-transparent border rounded-button text-white uppercase" href="">Log in</a>
                 <a class="px-4 py-3 bg-white rounded-button uppercase" href="">Register</a>

@@ -1,5 +1,5 @@
 <x-layout>
-    <div class= "flex items-center justify-center min-h-screen bg-black-900">
+    <div class= "flex items-center justify-center min-h-screen bg-red-900">
         <form method="POST" action="{{ route('login') }}">
             @csrf
             <div class="bg-black-200">

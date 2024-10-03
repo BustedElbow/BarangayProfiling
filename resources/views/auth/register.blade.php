@@ -21,4 +21,5 @@
             <button type="submit">Register</button>
         </div>
     </form>
+    <h1>hello</h1>
 </x-layout>

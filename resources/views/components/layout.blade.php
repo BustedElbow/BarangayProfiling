@@ -9,20 +9,11 @@
 
     <body class="overflow-y-auto">
 
-    <nav class="bg-black">
-        <div class=" container mx-auto">
-            <div class=" grid grid-cols-12 gap-5 py-4">
-                <div class=" col-start-10 col-span-3 flex justify-end gap-6">
-                    @if(!in_array(Route::currentRouteName(), ['login']))
-                        <a class="px-4 py-3 bg-transparent border rounded-button text-white uppercase" href="{{ route('login') }}">Log in</a>
-                    @endif
-                    @if(!in_array(Route::currentRouteName(), [
-                        'register']))
-                    <a class="px-4 py-3 bg-white rounded-button uppercase" href="{{ route('register') }}">Register</a>
-                    @endif
-                </div>
-            </div>
-        </div>
+    <nav class="bg-[#fefefe] border-b-[1px] flex justify-center py-2">
+      <div class="flex justify-between w-4/5">
+        <img class="h-[55px] w-[55.6px]" src="{{ asset( 'images/barangayEmblem.png')}}" alt="">
+        <a class="bg-[#4169e1] text-[#fefefe] self-center py-2 px-4 font-inter font-normal text-base" href="{{ route('login')}}">Sign In</a>
+      </div>
     </nav>
 
     <!-- Guide for figma 12 grid system -->

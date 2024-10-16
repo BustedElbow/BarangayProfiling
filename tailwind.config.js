@@ -9,12 +9,14 @@ export default {
     extend: {
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
       },
       borderRadius: {
         'button': '8px',
       },
       backgroundImage: {
         'hero-pattern': "url('/public/images/2.png')",
+        'eagle':"url('/public/images/eagle_mugnanimao.png')",
       },
     },
 

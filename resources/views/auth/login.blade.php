@@ -8,9 +8,16 @@
 </head>
 <body class="h-screen flex justify-center items-center">
   <main class="h-[724px] w-[1055px] rounded-[16px] bg-white shadow-md flex overflow-hidden">
-    <div class=" w-[560px] h-full bg-[#4169E1] flex justify-center items-center">
-      <img src="{{ asset('images/illustrations/LoginIllustration.png')}}" alt="">
+
+    <div class=" w-[560px] h-full bg-[#ffffff] flex items-start p-8">
+      <div class="bg-[url('/images/eagle_mugnanimao.png')]">
+          <h2 class="uppercase font-bold underline text-[#4169E1]">information</h2>
+          <h1 class="font-bold text-4xl pt-2">Don't Have an Account?</h1>
+      </div>
     </div>
+    
+    <div class="h-full border-l-2 border-gray-300"></div>
+    
     <div class=" w-[490px] h-full bg-white justify-center items-center flex">
       <div class=" flex flex-col gap-11">
         <div class="flex flex-col items-center gap-4">
@@ -20,6 +27,7 @@
             <span class=" text-center text-[#7d7d7d] font-inter">Welcome Back! Please enter your details</span>
           </div>
         </div>
+
         <form action="" class=" flex flex-col gap-11">
           <div class="flex flex-col gap-4">
             <div class=" flex flex-col">

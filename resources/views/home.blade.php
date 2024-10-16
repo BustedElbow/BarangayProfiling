@@ -23,22 +23,22 @@
                 <button><h3>View More</h3></button>
             </div>
             <div class="col-span-3 flex flex-col items-center border p-8">
-                <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+                <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-full h-auto">
                 <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
                 <p>September 9, 2024</p>
             </div>
             <div class="col-span-3 flex flex-col items-center border p-8">
-                <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+                <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-full h-auto">
                 <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
                 <p>September 9, 2024</p>
             </div>
             <div class="col-span-3 flex flex-col items-center border p-8">
-                <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+                <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-full h-auto">
                 <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
                 <p>September 9, 2024</p>
             </div>
             <div class="col-span-3 flex flex-col items-center border p-8">
-                <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+                <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-full h-auto">
                 <h2 class="text-xl font-semibold mt-2">Lorem Ipsum Title</h2>
                 <p>September 9, 2024</p>
             </div>
@@ -50,7 +50,7 @@
         <div class="container mx-auto mt-24 ">
             <div class="grid grid-cols-12 gap-5">
                 <div class="col-span-4 flex flex-col items-center p-8">
-                    <img src="{{asset('../images/1.png') }}" alt="asd" class="w-full h-auto">
+                    <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-full h-auto">
                 </div>
                 <div class="col-span-6 flex flex-col items-start justify-center ml-32">
                     <h1 class="text-white text-2xl font-bold">Barangay Clearance</h1>
@@ -69,7 +69,7 @@
         </div>
         <div class="flex justify-center">
             <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
-                <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-32 h-32">
                 <div class="ml-6">
                     <h2 class="text-xl font-semibold mt-2">John Doe</h2>
                     <p>Barangay Captain</p>
@@ -80,7 +80,7 @@
         <div>
             <div class="flex justify-center">
                 <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
-                    <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                    <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-32 h-32">
                     <div class="ml-6">
                         <h2 class="text-xl font-semibold mt-2">Mike Doe</h2>
                         <p>Barangay Kagawad</p>
@@ -92,7 +92,7 @@
             <div class="justify-between grid grid-cols-4 gap-4">
                 <div class="flex justify-center">
                     <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
-                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-32 h-32">
                         <div class="ml-6">
                             <h2 class="text-xl font-semibold mt-2">Doe John</h2>
                             <p>Staff </p>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="flex justify-center">
                     <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
-                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-32 h-32">
                         <div class="ml-6">
                             <h2 class="text-xl font-semibold mt-2">Staff Doe</h2>
                             <p>Staff</p>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="flex justify-center">
                     <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
-                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-32 h-32">
                         <div class="ml-6">
                             <h2 class="text-xl font-semibold mt-2">Doe Staff</h2>
                             <p>Staff</p>
@@ -119,7 +119,7 @@
                 </div>
                 <div class="flex justify-center">
                     <div class="flex items-center px-16 py-6 border-2 rounded-lg mb-24">
-                        <img src="{{asset('../images/1.png') }}" alt="asd" class="w-32 h-32">
+                        <img src="{{asset('../images/brngy_logo.png') }}" alt="asd" class="w-32 h-32">
                         <div class="ml-6">
                             <h2 class="text-xl font-semibold mt-2">Doey Staff</h2>
                             <p>Staff</p>

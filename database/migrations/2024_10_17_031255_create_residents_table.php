@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('residents', function (Blueprint $table) {
             $table->id('resident_id');
             $table->unsignedBigInteger('household_id'); //Foreign Key
+            $table->string('image')->nullable(); //Image path
             $table->string('first_name');
             $table->string('last_name');
             $table->string('gender');

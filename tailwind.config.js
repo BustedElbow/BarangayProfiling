@@ -18,6 +18,9 @@ export default {
         'hero-pattern': "url('/public/images/2.png')",
         'eagle':"url('/public/images/eagle_mugnanimao.png')",
       },
+      gridTemplateColumns: {
+        'custom-12': 'repeat(12, 80px)',
+      },
     },
 
   },

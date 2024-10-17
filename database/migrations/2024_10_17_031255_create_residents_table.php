@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('residents', function (Blueprint $table) {
             $table->id('resident_id');
-            $table->unsignedBigInteger('household_id');
+            $table->unsignedBigInteger('household_id'); //Foreign Key
             $table->string('first_name');
             $table->string('last_name');
             $table->string('gender');
@@ -26,7 +26,9 @@ return new class extends Migration
             $table->string('address');
             $table->string('purok');
             $table->timestamps();
-            
+
+            $table->foreign('household_id')->references('household_id')->on('households');
+
         });
     }
 

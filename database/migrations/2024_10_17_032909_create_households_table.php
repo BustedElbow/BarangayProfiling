@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id('household_id');
             $table->unsignedBigInteger('household_head'); //References resident_id
             $table->timestamps();
+
+            $table->foreign('household_head')->references('resident_id')->on('residents');
         });
     }
 

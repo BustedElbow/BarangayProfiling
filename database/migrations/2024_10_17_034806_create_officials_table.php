@@ -18,6 +18,8 @@ return new class extends Migration
             $table->date('term_start');
             $table->date('term_end');
             $table->timestamps();
+
+            $table->foreign('resident_id')->references('resident_id')->on('residents');
         });
     }
 

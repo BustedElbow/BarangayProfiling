@@ -17,6 +17,9 @@ return new class extends Migration
           $table->unsignedBigInteger('resident_id');
           $table->string('relationship');
           $table->timestamps();
+
+          $table->foreign('household_id')->references('household_id')->on('households');
+          $table->foreign('resident_id')->references('resident_id')->on('residents');
         });
     }
 

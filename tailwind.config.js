@@ -16,11 +16,13 @@ export default {
       },
       backgroundImage: {
         'hero-pattern': "url('/public/images/2.png')",
-        'eagle':"url('/public/images/eagle_mugnanimao.png')",
+        'eagle': "url('/public/images/eagle_mugnanimao.png')",
       },
     },
 
   },
-  plugins: [],
+  plugins: [
+      require('tailwindcss-rtl'),
+  ],
 }
 

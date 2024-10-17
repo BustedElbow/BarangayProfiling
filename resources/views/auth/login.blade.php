@@ -2,16 +2,14 @@
 <main class="container mx-auto">
   <div class="grid grid-cols-12 gap-5">
       <div class="col-start-1 col-span-12  h-[724px] flex border border-{#1E1E1E}">
-        <div class="w-[55%] h-full flex items-start pt-8 pl-8 border relative">
-          <div class="absolute top-0 left-0 w-[100%] h-[30%]  z-0 bg-eagle"></div>
+        <div class="w-[55%] h-full flex items-start pt-8 pl-8 border relative ">
+          <div class="absolute top-0 left-0 w-[100%] h-[30%]  z-0 bg-eagle bg-[#F5F5F5]"></div>
             <div class="ml-8 relative z-10 flex flex-col gap-4">
               <h2 class="uppercase font-bold text-[#4169E1]">information</h2>
               <h1 class="font-bold text-4xl font-raleway">Don't Have an <br>Account?</h1>
             </div>
         </div>
     
-        
-
         <div class=" w-[45%] h-full bg-white justify-center items-center flex">
           <div class=" flex flex-col gap-11 w-[75%]">
             <div class="flex flex-col items-center gap-4">

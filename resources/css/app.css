@@ -11,6 +11,27 @@
     background-size: 400px 400px; /* Customize the size as needed */
     background-repeat: no-repeat;
     background-position: calc(100% - -130px) center;
-    opacity: 15%;
-    background-color: #F5F5F5;
+    opacity: 25%;
   }
+
+
+.bg-eagle-alt {
+    position: relative; /* Ensure the parent element is positioned */
+}
+
+.bg-eagle-alt::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/images/eagle_mugnanimao_royalblue.png');
+  background-size: 600px 600px; /* Customize the size as needed */
+  background-repeat: no-repeat;
+  background-position: calc(80% - 0px) center;
+  height: 600px;
+  opacity: 25%; /* Set the desired opacity */
+  z-index: -1; /* Ensure the pseudo-element is behind the content */
+}
+

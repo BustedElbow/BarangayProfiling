@@ -18,7 +18,7 @@ use App\Http\Controllers\Auth\AuthenticatedSessionController;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
 Route::get('/register', [RegisteredUserController::class, 'create'])->name('register');
 Route::post('/register', [RegisteredUserController::class, 'store']);

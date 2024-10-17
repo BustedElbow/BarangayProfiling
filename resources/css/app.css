@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Custom CSS */
+.bg-eagle {
+    background-image: url('/public/images/eagle_mugnanimao.png');
+    background-size: 400px 400px; /* Customize the size as needed */
+    background-repeat: no-repeat;
+    background-position: calc(100% - -130px) center;
+    opacity: 15%;
+    background-color: #F5F5F5;
+  }

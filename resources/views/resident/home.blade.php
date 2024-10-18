@@ -1,4 +1,4 @@
-<x-layout>
+<x-default_navbar>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="{{ asset('/resources/js/custom.js') }}"></script>
 
@@ -107,4 +107,4 @@
       
     });
   </script>
-</x-layout>
+</x-default_navbar>

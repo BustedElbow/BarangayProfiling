@@ -1,9 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\RegisteredUserController;
-use App\Http\Controllers\Auth\AuthenticatedSessionController;
-
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,9 +15,16 @@ use App\Http\Controllers\Auth\AuthenticatedSessionController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('resident.home');
 })->name('home');
 
 Route::get('/login', function() {
   return view('auth.login');
 })->name('login');
+
+Route::post('/login', [LoginController::class, 'login'])->name('login');
+
+Route::get('/dashboard', function () {
+  return view('admin.dashboard');
+})->name('dashboard');
+

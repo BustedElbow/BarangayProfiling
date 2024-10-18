@@ -22,10 +22,6 @@ export default {
         'custom-12': 'repeat(12, 80px)',
       },
     },
-
   },
-  plugins: [
-      require('tailwindcss-rtl'),
-  ],
 }
 

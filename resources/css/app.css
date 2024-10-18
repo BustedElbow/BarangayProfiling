@@ -35,3 +35,30 @@
   z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
+#card-container {
+  overflow-x: hidden; /* Hide the default scrollbar */
+  scroll-behavior: smooth; /* Smooth scroll when using the slider */
+  padding-bottom: 16px;
+  position: relative;  
+}
+
+#custom-slider{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 376px;
+  height: 4px;
+  background: #ccc; /* Grey color of the slider */
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+#custom-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 94px;
+  height: 4px;
+  background: #4169E1; /* Thumb color */
+  cursor: pointer;
+}

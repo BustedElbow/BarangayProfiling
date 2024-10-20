@@ -21,6 +21,15 @@ export default {
       gridTemplateColumns: {
         'custom-12': 'repeat(12, 80px)',
       },
+      backgroundColor: {
+        'barangay-main': "#4169E1",
+      },
+      textColor: {
+        'barangay-main': "#4169E1",
+      },
+      borderColor: {
+        'barangay-main': "#4169E1",
+      },
     },
   },
 }

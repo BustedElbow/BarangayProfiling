@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,12 @@ Route::get('/dashboard', function () {
   return view('admin.dashboard');
 })->name('dashboard');
 
+Route::get('/residents', function () {
+  return view('admin.residents');
+})->name('residents');
+
+Route::get('/residents/register', function() {
+  return view('admin.register_resident');
+})->name('register');
+
+Route::post('/residents/register', [RegisterController::class, 'store'])->name('register');

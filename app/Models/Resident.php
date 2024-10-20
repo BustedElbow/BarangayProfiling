@@ -8,13 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Resident extends Model
 {
     use HasFactory;
-    
-    public $incrementing = false;
-    
+      
     protected $table = 'residents';
-    
+
     protected $primaryKey = 'resident_id';
 
+    public $incrementing = true;
 
     protected $casts = [
       'birthdate' => 'date',
@@ -26,7 +25,7 @@ class Resident extends Model
       'first_name',
       'middle_name',
       'last_name',
-      'gender',
+      'sex',
       'birthdate',
       'age',
       'civil_status',
